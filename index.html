@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Friend Survey</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Quick Survey</h1>
+
+<form id="surveyForm">
+
+<h2>1. Favourite color</h2>
+<div class="options">
+<label><input type="radio" name="color" value="Red"> Red</label>
+<label><input type="radio" name="color" value="Blue"> Blue</label>
+<label><input type="radio" name="color" value="Green"> Green</label>
+<label><input type="radio" name="color" value="Black"> Black</label>
+<label><input type="radio" name="color" value="White"> White</label>
+</div>
+
+<h2>2. Favourite cake</h2>
+<div class="options">
+<label><input type="radio" name="cake" value="Chocolate"> Chocolate</label>
+<label><input type="radio" name="cake" value="Vanilla"> Vanilla</label>
+<label><input type="radio" name="cake" value="Strawberry"> Strawberry</label>
+<label><input type="radio" name="cake" value="Cheesecake"> Cheesecake</label>
+</div>
+
+<h2>3. Favourite music</h2>
+<input type="text" name="music" placeholder="Enter music">
+
+<h2>4. Favourite hobby</h2>
+<div class="options">
+<label><input type="radio" name="hobby" value="Basketball"> Basketball</label>
+<label><input type="radio" name="hobby" value="Photography"> Photography</label>
+<label><input type="radio" name="hobby" value="Electronics"> Electronics</label>
+<label><input type="radio" name="hobby" value="Chess"> Chess</label>
+<label><input type="radio" name="hobby" value="Other"> Other</label>
+</div>
+
+<h2>5. Favourite series</h2>
+<div class="options">
+<label><input type="radio" name="series" value="Suits"> Suits</label>
+<label><input type="radio" name="series" value="Other"> Other</label>
+</div>
+
+<h2>6. Favourite game</h2>
+<div class="options">
+<label><input type="radio" name="game" value="Stumble Guys"> Stumble Guys</label>
+<label><input type="radio" name="game" value="Asphalt"> Asphalt</label>
+<label><input type="radio" name="game" value="Among Us"> Among Us</label>
+<label><input type="radio" name="game" value="BGMI"> BGMI</label>
+<label><input type="radio" name="game" value="Aurora Hills"> Aurora Hills chapter 1</label>
+</div>
+
+<h2>Contact Info</h2>
+
+<input type="text" name="name" placeholder="Name" required>
+<input type="text" name="pincode" placeholder="PIN code" required>
+<input type="text" name="floor" placeholder="Floor" required>
+<input type="text" name="street" placeholder="Street" required>
+<input type="text" name="apartment" placeholder="Apartment number" required>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
